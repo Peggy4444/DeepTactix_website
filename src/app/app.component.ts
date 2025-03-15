@@ -1,12 +1,20 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Router } from '@angular/router'; // Import Router
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  standalone: true,
+  imports: [RouterModule],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'deep-tactix';
+  title = 'DeepTactix';
+
+  constructor(private router: Router) {} // Inject Router
+
+  navigateToAboutUs() {
+    this.router.navigate(['/about-us']); // Programmatic navigation
+  }
 }
