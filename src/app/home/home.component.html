@@ -5,7 +5,7 @@
       <a routerLink="/courses" class="cta-button">Explore How AI Can Transform Your Game</a>
     </div>
   </section>
-
+  
   <section class="about-ai">
     <h2>How AI is Changing Soccer</h2>
     <p>Artificial intelligence is transforming the way soccer teams analyze data, predict outcomes, and develop strategies. With AI, you can:</p>
@@ -16,31 +16,32 @@
       <li>Discover hidden talent using advanced scouting tools</li>
     </ul>
   </section>
-
+  
   <section class="features">
     <h2>What We Offer</h2>
     <div class="feature-cards">
-      <div class="card">
+      <div class="card" (click)="navigateTo('/sporting-directors')">
         <h3>For Sporting Directors</h3>
         <p>Make data-driven decisions to build winning teams.</p>
       </div>
-      <div class="card">
+      <div class="card" (click)="navigateTo('/scouts')">
         <h3>For Scouts</h3>
         <p>Discover talent using advanced AI-powered tools.</p>
       </div>
-      <div class="card">
+      <div class="card" (click)="navigateTo('/analysts')">
         <h3>For Analysts</h3>
         <p>Analyze match data and uncover actionable insights.</p>
       </div>
-      <div class="card">
+      <div class="card" (click)="navigateTo('/researchers')">
         <h3>For Researchers</h3>
         <p>Explore cutting-edge AI applications in soccer.</p>
       </div>
     </div>
   </section>
+  
 
   <section class="cta">
     <h2>Ready to Transform Your Game?</h2>
     <p>Join the revolution and start using AI to gain a competitive edge.</p>
-    <a routerLink="/contact-us" class="cta-button">Get Started Today</a>
+    <div class="cta-button" (click)="navigateTo('/contact-us')">Get Started Today</div>
   </section>
