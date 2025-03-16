@@ -1,0 +1,104 @@
+/* Courses Section */
+.courses {
+    padding: 60px 20px;
+    background: #ffffff; /* White background */
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .intro {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  .intro h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #001f3f; /* Dark blue for headings */
+  }
+  
+  .intro p {
+    font-size: 1.1rem;
+    color: #333333; /* Dark grey for text */
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .course-section {
+    margin-bottom: 40px;
+  }
+  
+  .course-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #001f3f; /* Dark blue for headings */
+  }
+  
+  .course-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333333; /* Dark grey for text */
+    margin-bottom: 20px;
+  }
+  
+  .course-section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .course-section ul li {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333333; /* Dark grey for text */
+  }
+  
+  .module {
+    margin-bottom: 20px;
+  }
+  
+  .module h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #001f3f; /* Dark blue for headings */
+  }
+  
+  .module ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .module ul li {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333333; /* Dark grey for text */
+  }
+  
+  /* Call-to-Action Section */
+  .cta {
+    text-align: center;
+    margin-top: 60px;
+  }
+  
+  .cta p {
+    font-size: 1.1rem;
+    color: #333333; /* Dark grey for text */
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background: #ff5722; /* Orange accent */
+    color: white;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.3s ease;
+    cursor: pointer; /* Add pointer cursor to indicate clickability */
+  }
+  
+  .cta-button:hover {
+    background: #e64a19; /* Darker orange on hover */
+  }

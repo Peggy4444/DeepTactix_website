@@ -1,1 +1,54 @@
-<p>scouts works!</p>
+<section class="scouts">
+    <!-- First Paragraph: Text Left, Image Right -->
+    <div class="container">
+      <div class="content">
+        <h2>Are You Scouting the Right Player?</h2>
+        <p>
+          Let’s say you’re scouting for a new winger. You look at the aggregated xT (Expected Threat) values and see that Player A has a high xT. You might think, "Great, this player creates high-value actions!" But in reality, Player A might have been in the right place at the right time due to luck or team dynamics, not because of their individual skill.
+        </p>
+        <p>
+          By ignoring player identity during training the ML models, you lose the ability to distinguish between skill and context. This can lead to <strong>overvaluing</strong> players who benefit from team tactics or luck, and <strong>undervaluing</strong> players who are truly skilled but play in less favorable conditions.
+        </p>
+      </div>
+      <div class="image">
+        <img src="assets/scouts-1.png" alt="Scouting the right player">
+      </div>
+    </div>
+  
+    <!-- Second Paragraph: Text Right, Image Left -->
+    <div class="container reverse">
+      <div class="content">
+        <h2>The Challenge of Context in Player Evaluation</h2>
+        <p>
+          This is where <strong>permutation invariant sorting schemes</strong> and <strong>Graph Neural Networks (GNNs)</strong> come into play. These approaches ensure that the model understands the context of each action while respecting the fact that player identities matter. For example, a player’s ability to create high xT actions should be evaluated based on their individual skill, not just their position on the field.
+        </p>
+        <p>
+          If you’re a scout or analyst, your goal is to identify players who can consistently create high-value actions based on their individual skills, not just their team’s dynamics. By addressing permutation invariance, you can accurately assess a player’s ability to create high xT actions, identify undervalued players in less dominant teams, and make smarter transfer decisions by understanding how a player’s skills fit into your team’s tactics.
+        </p>
+      </div>
+      <div class="image">
+        <img src="assets/scouts-2.png" alt="Context in player evaluation">
+      </div>
+    </div>
+  
+    <!-- Third Paragraph: Text Left, Images Right (Stacked) -->
+    <div class="container">
+      <div class="content">
+        <h2>Our Solution for Scouts & Recruitment Analysts</h2>
+        <p>
+          Our AI-powered platform helps you identify players who best fit your team’s tactical approach based on <strong>data-driven insights</strong>, not subjective assessments. By using advanced machine learning models, we compare players from different leagues using a common playing style framework, avoiding misleading stats due to league differences.
+        </p>
+        <p>
+          With our solution, you can assess potential signings’ impact by checking their effectiveness in similar playing styles. This ensures you’re not just signing a talented player—you’re signing the <strong>right player for your team</strong>.
+        </p>
+        <p>
+          Find out how our solutions can allow you to combine objective, data-driven recruitment profiling alongside your traditional scouting to help identify targets meeting your key requirements.
+        </p>
+        <div class="cta-button" (click)="navigateTo('/contact-us')">Contact Us to Learn More</div>
+      </div>
+      <div class="image-stack">
+        <img src="assets/scouts-3a.png" alt="AI-powered solution for scouts">
+        <img src="assets/scouts-3b.png" alt="AI-powered solution for scouts">
+      </div>
+    </div>
+  </section>

@@ -1,0 +1,77 @@
+/* LinkedIn Links */
+.linkedin-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0077b5; /* LinkedIn blue */
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .linkedin-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Contact Form */
+  .contact-form {
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 20px;
+    background: #f8f9fa; /* Light grey background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #001f3f; /* Dark blue for headings */
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 1rem;
+    color: #333333; /* Dark grey for text */
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+  }
+  
+  .form-group textarea {
+    resize: vertical; /* Allow vertical resizing */
+  }
+  
+  .cta-button {
+    display: block;
+    width: 100%;
+    background: #ff5722; /* Orange accent */
+    color: white;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.3s ease;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .cta-button:hover {
+    background: #e64a19; /* Darker orange on hover */
+  }
+  
+  .cta-button:disabled {
+    background: #cccccc; /* Grey for disabled state */
+    cursor: not-allowed;
+  }

@@ -1,1 +1,77 @@
-<p>about-us works!</p>
+<section class="about-us">
+    <div class="intro">
+      <h1>About Us</h1>
+      <p>
+        Meet the team behind Deep Tactix. We are a group of passionate researchers and data scientists dedicated to advancing football analytics through cutting-edge AI and machine learning techniques.
+      </p>
+    </div>
+  
+    <!-- Team Members -->
+    <div class="team-members">
+      <div class="team-member">
+        <h2>László Toka</h2>
+        <p>
+          László Toka is currently an Associate Professor at Budapest University of Technology and Economics, vice-head of HSN Lab, and a member of the HUNREN-BME Cloud Applications Research Group.
+        </p>
+        <a href="https://www.linkedin.com/in/laszlo-toka" target="_blank" class="linkedin-link">LinkedIn</a>
+      </div>
+      <div class="team-member">
+        <h2>Pegah Rahimian</h2>
+        <p>
+          Football analytics researcher at Uppsala University, Football Data Scientist at DeepTactix.
+        </p>
+        <a href="https://www.linkedin.com/in/pegah-rahimian-353053153/" target="_blank" class="linkedin-link">LinkedIn</a>
+      </div>
+      <div class="team-member">
+        <h2>Patrik Peter Szmida</h2>
+        <p>
+          Data Scientist, PhD at Budapest University of Technology and Economics.
+        </p>
+        <a href="https://www.linkedin.com/in/patrik-szmida" target="_blank" class="linkedin-link">LinkedIn</a>
+      </div>
+      <div class="team-member">
+        <h2>Balazs Mark Mihalyi</h2>
+        <p>
+          Data Scientist, PhD at Budapest University of Technology and Economics.
+        </p>
+        <a href="https://www.linkedin.com/in/balazs-mihalyi" target="_blank" class="linkedin-link">LinkedIn</a>
+      </div>
+    </div>
+  
+    <!-- Placeholder for Pictures -->
+    <div class="team-pictures">
+      <div class="picture-placeholder">
+        <img src="assets/placeholder-1.jpeg" alt="Placeholder for team member picture">
+      </div>
+      <div class="picture-placeholder">
+        <img src="assets/placeholder-2.jpeg" alt="Placeholder for team member picture">
+      </div>
+      <div class="picture-placeholder">
+        <img src="assets/placeholder-3.jpeg" alt="Placeholder for team member picture">
+      </div>
+    </div>
+  
+    <!-- Contact Form -->
+    <div class="contact-form">
+      <h2>Contact Us</h2>
+      <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" formControlName="name" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone</label>
+          <input type="text" id="phone" formControlName="phone">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" formControlName="email" required>
+        </div>
+        <div class="form-group">
+          <label for="request">Request</label>
+          <textarea id="request" formControlName="request" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="cta-button" [disabled]="contactForm.invalid">Send Message</button>
+      </form>
+    </div>
+  </section>

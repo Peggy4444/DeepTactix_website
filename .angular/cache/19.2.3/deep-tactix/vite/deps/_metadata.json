@@ -1,34 +1,58 @@
 {
-  "hash": "26e4fbcf",
-  "configHash": "e00b9f69",
-  "lockfileHash": "83756565",
-  "browserHash": "4289032e",
+  "hash": "789fea6d",
+  "configHash": "01c52b3c",
+  "lockfileHash": "d7d0aa22",
+  "browserHash": "d4903389",
   "optimized": {
+    "@angular/common": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "51b32109",
+      "needsInterop": false
+    },
     "@angular/core": {
       "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "0c819ddc",
+      "fileHash": "6b196f2a",
+      "needsInterop": false
+    },
+    "@angular/forms": {
+      "src": "../../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
+      "file": "@angular_forms.js",
+      "fileHash": "686f0121",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "a07e9fee",
+      "fileHash": "2fc3c551",
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-      "fileHash": "c6ca89b2",
+      "fileHash": "e4cbe599",
+      "needsInterop": false
+    },
+    "emailjs-com": {
+      "src": "../../../../../../node_modules/emailjs-com/es/index.js",
+      "file": "emailjs-com.js",
+      "fileHash": "1c3185ee",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-TUBEI5TF": {
-      "file": "chunk-TUBEI5TF.js"
+    "chunk-UVH2RBFD": {
+      "file": "chunk-UVH2RBFD.js"
     },
-    "chunk-3QOFSQBY": {
-      "file": "chunk-3QOFSQBY.js"
+    "chunk-TT2NPFIT": {
+      "file": "chunk-TT2NPFIT.js"
+    },
+    "chunk-QBSACP3W": {
+      "file": "chunk-QBSACP3W.js"
+    },
+    "chunk-WDMUDEB6": {
+      "file": "chunk-WDMUDEB6.js"
     }
   }
 }

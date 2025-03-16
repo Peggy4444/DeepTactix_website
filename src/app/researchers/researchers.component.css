@@ -1,0 +1,126 @@
+/* Researchers Section */
+.researchers {
+    padding: 60px 20px;
+    background: #ffffff; /* White background */
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .intro {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  .intro h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #001f3f; /* Dark blue for headings */
+  }
+  
+  .intro p {
+    font-size: 1.1rem;
+    color: #333333; /* Dark grey for text */
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Research Sections */
+  .research-section {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 60px;
+  }
+  
+  .research-section.reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .research-section .content {
+    flex: 1;
+  }
+  
+  .research-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #001f3f; /* Dark blue for headings */
+  }
+  
+  .research-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333333; /* Dark grey for text */
+    margin-bottom: 20px;
+  }
+  
+  .research-section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .research-section ul li {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333333; /* Dark grey for text */
+  }
+  
+  .research-section ul li a {
+    color: #ff5722; /* Orange for links */
+    text-decoration: none;
+  }
+  
+  .research-section ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .research-section .image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .research-section .image img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Call-to-Action Section */
+  .cta {
+    text-align: center;
+    margin-top: 60px;
+  }
+  
+  .cta p {
+    font-size: 1.1rem;
+    color: #333333; /* Dark grey for text */
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background: #ff5722; /* Orange accent */
+    color: white;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.3s ease;
+    cursor: pointer; /* Add pointer cursor to indicate clickability */
+  }
+  
+  .cta-button:hover {
+    background: #e64a19; /* Darker orange on hover */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .research-section, .research-section.reverse {
+      flex-direction: column;
+    }
+  
+    .research-section .image {
+      order: -1; /* Move image above text on smaller screens */
+    }
+  }
